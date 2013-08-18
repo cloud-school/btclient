@@ -3,11 +3,6 @@
   {description, ""},
   {vsn, "0.1.0"},
   {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib,
-                  inets
-                 ]},
-  {mod, { btclient_app, []}},
+  {applications, [ kernel, stdlib, inets ]},
   {env, []}
  ]}.
